@@ -5,7 +5,8 @@ var uuid = require("uuid");
 
 //--------------------------hosting
 const { WebSocketServer } = require("ws");
-const wss = new WebSocketServer({ port: 667 });
+var wsPost = 667;
+const wss = new WebSocketServer({ port: wsPost });
 const express = require('express');
 const app = express();
 const http = require('http');
@@ -41,7 +42,7 @@ wss.on("connection", (ws) => {
 //--------------------------connection
 
 
-console.log("WebSocketServer listening on port: 8080");
+console.log("WebSocketServer listening on port: " + wsPost);
 
 server.listen(666, () => {
   console.log('Hosting listening on port: 666');
