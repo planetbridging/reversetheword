@@ -5,7 +5,7 @@ const {getName} = require("./randomName");
 
 class Chat extends React.Component {
 
-    ws = new WebSocket("ws://127.0.0.1:8080");
+    ws = new WebSocket("ws://pressback.space:667");
 
     state = {
         serverTimeStamp: "",
