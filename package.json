@@ -1,0 +1,28 @@
+{
+  "name": "fun-with-sockets",
+  "version": "1.0.0",
+  "description": "Coding Challenge for Websockets",
+  "main": "./index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OutcomeLife/websocket-code-challenge.git"
+  },
+  "keywords": [],
+  "author": "Shannon Setter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OutcomeLife/websocket-code-challenge/issues"
+  },
+  "homepage": "https://github.com/OutcomeLife/websocket-code-challenge#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {}
+}
